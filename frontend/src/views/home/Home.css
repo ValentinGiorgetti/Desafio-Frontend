@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada');
+
+body {
+	background-color: #F5F5F5;
+	font-size: 1.1rem;
+	font-family: Mada;
+}
+
+button {
+	border-radius: 5px;
+	border-width: 0px;
+	background: 0;
+}
+
+.PageContainer {
+	position: absolute;
+	right: 0px;
+	left: 250px;
+}
+
+.PageTitle {
+	margin-left: 2rem;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #3D3E40;
+}
+
+.PageContent {
+	width: 85%;
+	max-width: 1200px;
+	margin-left: 10rem;
+	margin-right: auto;
+}

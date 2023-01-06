@@ -1,0 +1,6 @@
+{
+    "username": "Usuario",
+    "password": "Contraseña",
+    "login": "Iniciar sesión",
+    "bad_credentials": "Credenciales incorrectas, inténtelo nuevamente"
+}

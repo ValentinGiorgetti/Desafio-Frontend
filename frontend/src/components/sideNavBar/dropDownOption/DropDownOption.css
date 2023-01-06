@@ -1,0 +1,20 @@
+.DropDownOption {
+	padding: 0.6rem 0rem 0.6rem 1.5rem;
+	margin: 0.2rem 0rem;
+	text-align: left;
+	width: 100%;
+	color: white;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: 0.1px;
+	cursor: pointer;
+}
+
+.DropDownOption:hover {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.SelectedDropDownOption {
+	background: rgba(255, 255, 255, 0.10);
+}

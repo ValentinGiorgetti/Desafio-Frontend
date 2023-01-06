@@ -1,0 +1,28 @@
+.SideNavBarButton {
+	padding: 0.35rem 1rem;
+	margin: 0.2rem 0rem;
+	color: white;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	cursor: pointer;
+}
+
+.SideNavBarButton:hover {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.arrow {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.right {
+	transform: rotate(-45deg);
+}
+
+.down {
+	transform: rotate(45deg);
+}
