@@ -11,13 +11,13 @@ function WeatherInformation() {
     fetch(API_URL)
       .then(response => response.json())
       .then(data => {
-        setWeatherData(data.daily);
+        setWeatherData(data);
         setIsLoading(false);
       });
   }, []);
 
   function getMinMax(weatherData) {
-    return ` ${weatherData.temperature_2m_max[0]}° (max) - ${weatherData.temperature_2m_min[0]}° (min) `
+    return ` ${weatherData.daily.temperature_2m_max[0]}° (max) - ${weatherData.daily.temperature_2m_min[0]}° (min) GMT ${weatherData.timezone_abbreviation}`
   }
 
   return isLoading ? ("Cargando temperatura...") : (getMinMax(weatherData));
