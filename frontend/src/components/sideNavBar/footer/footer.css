@@ -1,0 +1,17 @@
+.Footer {
+	margin: auto;
+	margin-top: -0.5rem;
+	margin-left: 0.5rem;
+	width: 210px;
+}
+
+.FooterLogo {
+	padding-top: 1rem;
+	float: left;
+}
+
+.footerTextContainer {
+	float: right;
+	margin-left: -1rem;
+	width: 10.5rem;
+}

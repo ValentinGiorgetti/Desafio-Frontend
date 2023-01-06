@@ -1,0 +1,46 @@
+.SessionNavBarConteiner {
+	background: rgba(18, 65, 111, 0.05);
+	height: 3rem;
+	margin: 0px;
+	margin-top: -8px;
+}
+
+.Location {
+	color: #787E8F;
+	font-size: 1rem;
+	font-weight: 500;
+	padding-top: 1.25rem;
+	padding-bottom: 1.75rem;
+	padding-left: 1rem;
+	margin-left: -0.5rem;
+	font-size: 16px;
+	line-height: 21px;
+	float: left;
+}
+
+.SessionButtonContainer {
+	padding: 0.25rem 2rem 0rem;
+	float: right;
+}
+
+.ProfileImage {
+	border-radius: 2rem;
+	height: 2.5rem;
+	margin-top: 0.25rem;
+}
+
+.SessionImage {
+	float: left;
+	margin: 0.75rem 1rem 0rem;
+}
+
+.SessionButton {
+	border: none;
+	margin: 0.25rem;
+	cursor: pointer;
+}
+
+.Weather {
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+}
