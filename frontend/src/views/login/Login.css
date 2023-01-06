@@ -68,3 +68,21 @@
 .login-button:hover{
   background-color:#1859c9db;
 }
+
+.language-button{
+  margin-top: 2rem;
+  margin-left: 4rem;
+  width:20%;
+  height:30px;
+  border:none;
+  border-radius:10px;
+  font-size:17px;
+  font-weight:300;
+  color:#fff;
+  background-color:#36278b;
+  cursor:pointer;
+}
+
+.language-button:hover{
+  background-color:#4838a1;
+}
